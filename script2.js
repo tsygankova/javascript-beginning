@@ -6,3 +6,5 @@ const roomType = "VIP";
 const roomNumber = "206";
 
 console.log ("Гость " + firstName + " " + lastName + " поселяется в " + roomType + " номере " + roomNumber);
+
+console.log (`Гость ${firstName} ${lastName} поселяется в ${roomType} номере ${roomNumber}`);
