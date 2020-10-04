@@ -4,15 +4,17 @@
 если значение не 1-5, сообщение "Такого количества звезд не существует"
 */
 
-let stars;
+const stars = 8;
 let price;
 
-stars  = 1;
-
 if (stars === 1){
-console.log (`Цена отеля за сутки: $${price ===20}`);}
-else if(stars === 2){console.log (`Цена отеля за сутки: $${price = 30}`);}
-else if(stars === 3){console.log (`Цена отеля за сутки: $${price = 0}`);}
-else if(stars === 4){console.log (`Цена отеля за сутки: $${price = 0}`);}
-else if(stars === 5){console.log (`Цена отеля за сутки: $${price = 120}`);}
-else {console.log(`Такого количества звезд не существует`);}
+    price = 20;
+} 
+else if (stars === 2){ price = 30;}
+else if ( stars === 3){ price = 40;}
+else if (stars === 4){ price = 50;}
+else if (stars === 5){ price = 120;}
+else { console.log(`Такого количества звезд не существует`);}
+
+console.log (`цена $ ${price}`);
+
