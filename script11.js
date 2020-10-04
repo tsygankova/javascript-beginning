@@ -4,7 +4,7 @@
 общую сумму зарлпат totalSalary нужно вывести в консоль*/
 
 // заявить переменные
-const employees = 152;
+const employees = 1520;
 const salaryMin = 500;
 const salaryMax = 5000;
 let totalSalary = 0;
