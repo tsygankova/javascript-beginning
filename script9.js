@@ -4,7 +4,7 @@
 если значение не 1-5, сообщение "Такого количества звезд не существует"
 */
 
-const stars = 1;
+const stars = 8;
 let price;
 
 // if (stars === 1){
@@ -18,26 +18,45 @@ let price;
 
 // console.log (`цена $ ${price}`);
 
+// switch (stars){
+//     case 1:
+//         price = 20;
+//         break;
+//     case 2:
+//         price = 30;
+//         break;
+//     case 3:
+//         price = 40;
+//         break;
+//     case 4: 
+//         price = 50;
+//         break;
+//     case 5:
+//         price = 120;
+//         break;
+
+//     default:
+//         console.log (`Нет таких звезд на этом небе`);
+//         break;
+// }
+
+// console.log (`Цена $`, price);
+
 switch (stars){
     case 1:
+    case 2:
         price = 20;
         break;
-    case 2:
+
+    case 3:
+    case 4:
         price = 30;
         break;
-    case 3:
-        price = 40;
-        break;
-    case 4: 
-        price = 50;
-        break;
-    case 5:
-        price = 120;
-        break;
 
-    default:
-        console.log (`Нет таких звезд на этом небе`);
+    case 5:
+    default: 
+        console.log (`it's too expensive for you fool!`);
         break;
 }
 
-console.log (`Цена $`, price);
+console.log (price);
